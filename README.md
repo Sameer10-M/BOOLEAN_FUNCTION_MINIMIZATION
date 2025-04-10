@@ -75,6 +75,111 @@ Developed by: Sameer shariff M RegisterNumber: 24900559/
 **Timing Diagram**
 
 **Result:**
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Bootstrap Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">MySite</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="bg-primary text-white text-center py-5">
+    <div class="container">
+      <h1 class="display-4">Welcome to dyslexify</h1>
+      <p class="lead">Empowering Minds with Smart Assistive Technology</p>
+      <a href="get-started.html" class="btn btn-light btn-lg mt-3">Get Started</a>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <section class="container my-5">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>About This Page</h2>
+        <p>Welcome to dyslexify, your personalized companion designed to support individuals with dyslexia in reading, writing, and learning with confidence. Our mission is to make literacy accessible and enjoyable for everyone. Whether you're a student, professional, or parent, our tools are crafted to provide a smoother reading and learning experience.</p>
+      </div>
+      <div class="col-md-6">
+        <h2>Feautres include</h2>
+        <p>Text-to-Speech: Listen to written content in a natural voice.</p>
+        <p>Speech-to-Text: Convert spoken words into written text with ease.</p>
+        <p>Font Customization: Choose dyslexia-friendly fonts and adjust spacing for better readability.</p>
+        <p>Reading Guide & Highlighting: Stay focused with real-time text highlighting and reading overlays.</p>
+        <p>Note-Taking & Organizing Tools: Simplify writing and manage your thoughts clearly.</p>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Get Started - Dyslexify</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+
+  <header class="bg-dark text-danger text-center py-5">
+    <div class="container">
+      <h1 class="display-4">Team Ironfist</h1>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100 text-center">
+            <div class="card-body">
+              <h5 class="card-title">Oviya B</h5>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <div class="card-body">
+              <h5 class="card-title">Nusrath Fathima S</h5>
+              <p class="card-text">Team Leader</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <div class="card-body">
+              <h5 class="card-title">Pramila T</h5>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+    </html>
+
+
 
 Thus the given logic functions are implemented using and their operations are verified using Verilog programming.
 
